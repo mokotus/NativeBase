@@ -27,9 +27,7 @@ const DefaultTabBar = createReactClass({
     underlineStyle: PropTypes.shape({
       style: PropTypes.any,
     }),
-    tabContainerStyle: PropTypes.shape({
-      style: PropTypes.any,
-    }),
+    tabContainerStyle: PropTypes.array,
     accessible: PropTypes.array,
     accessibilityLabel: PropTypes.array
   },
