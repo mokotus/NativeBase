@@ -22,9 +22,7 @@ const DefaultTabBar = createReactClass({
     activeTextColor: PropTypes.string,
     inactiveTextColor: PropTypes.string,
     disabledTextColor: PropTypes.string,
-    tabStyle: PropTypes.shape({
-      style: PropTypes.any,
-    }),
+    tabStyle: PropTypes.array,
     renderTab: PropTypes.func,
     underlineStyle: PropTypes.shape({
       style: PropTypes.any,
